@@ -4,3 +4,10 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+.banner-bg {
+  background-color: #feeae9;
+}
+.btn-pink {
+  background-color: #ff3484;
+  color: white;
+}
