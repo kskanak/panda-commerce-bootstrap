@@ -45,16 +45,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpacks</a>
+                <a class="nav-link" href="#backpack">Backpacks</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Subscribe</a>
+                <a class="nav-link" href="#contact">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@
       </nav>
       <!-- navbar end -->
       <!-- slider section start -->
-      <section class="slider container  mb-5 ">
+      <section class="slider container mb-5 mt-5">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -170,7 +170,7 @@
     <!-- header section end -->
     <main>
       <!-- catagory section start -->
-      <section class="catagory-section container mb-5">
+      <section class="catagory-section container">
         <div class="row g-4">
           <div class="col-lg-4 col-md-6 col-12">
             <div class="contet d-flex align-items-center justify-content-around bg-warning rounded-3 py-3">
@@ -197,7 +197,7 @@
       </section>
       <!-- catagory section end -->
       <!-- shoes section start -->
-      <section class="shoes-section container mb-5">
+      <section class="shoes-section container pt-5" id="shoes">
         <h2 class="fw-semibold">Shoes</h2>
         <div class="row g-4">
           <!-- card 1 -->
@@ -249,7 +249,7 @@
       </section>
       <!-- shoes section end -->
       <!-- backpack section start -->
-      <section class="backpack-section container mb-5">
+      <section class="backpack-section container mb-5 pt-5" id="backpack">
         <h2 class="fw-semibold">Backpack</h2>
         <div class="row g-4">
           <!-- card 1 -->
@@ -301,17 +301,16 @@
       </section>
       <!-- backpack section end -->
       <!-- contact section start -->
-      <section class="contact-section container banner-bg rounded-3">
-        <div class="row">
-          <div class="offset-lg-4 col-lg-4 col-8 offset-2 text-center py-5">
-            <div class="form-content text-start">
-              <h2 class="fw-bold">LET'S STAY IN TOUCH</h2>
-            <P>Get Updates on sales, specials and more</P>
-            <form action="">
-              <input type="email" name="your email" id="mail" class="form-control"> <br>
-              <button type="submit" class="btn btn-pink">Submit</button>
-            </form>
-            </div>
+      <section style="height: 300px;" class="contact-section container banner-bg rounded-3 d-flex justify-content-center align-items-center" id="contact">
+        <div class="form-content">
+          <h2 class="fw-bold">LET'S STAY IN TOUCH</h2>
+        <P>Get Updates on sales, specials and more</P>
+        <form action="">
+          <input type="email" name="your email" id="mail" class="form-control"> <br>
+          <button type="submit" class="btn btn-pink">Submit</button>
+        </form>
+        </div>
+            
           </div>
         </div>
       </section>
